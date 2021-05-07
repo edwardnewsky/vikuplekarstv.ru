@@ -5,26 +5,16 @@ const burger = header.querySelector(".burger");
 const menu = header.querySelector(".menu");
 
 const toggleMenu = () => {
-  menu.classList.toggle("d-none");
-};
-const hideMenu = () => {
-  menu.classList.add("d-none");
-};
-
-const add_class_on_scroll = () => burger.classList.add("d-none");
-const remove_class_on_scroll = () => burger.classList.remove("d-none");
-
-// Show burger onScroll
-window.addEventListener("scroll", function () {
-  scrollpos = window.scrollY;
-
-  if (scrollpos >= header_height) {
-    remove_class_on_scroll();
+  if (menu.style.display === "flex") {
+    menu.style.display = "none";
+    console.log(menu.style.display);
   } else {
-    add_class_on_scroll();
-    hideMenu();
+    menu.style.display = "flex";
+    console.log(menu.style.display);
   }
-});
+};
 
 // Show menu onClick burger
 burger.addEventListener("click", toggleMenu);
+
+// // ---------------------

@@ -2,14 +2,18 @@
   display: flex;
   align-items: center;
 
-  .logo-text {
+  .logo__link {
+    display: inherit;
+  }
+
+  .logo__text {
     size: 17px;
     color: var(--color-turquise);
     font-weight: bold;
     padding-left: 15px;
   }
   @media (max-width: (345px)) {
-    .logo-text {
+    .logo__text {
       padding-left: 10px;
     }
   }

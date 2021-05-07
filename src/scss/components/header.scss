@@ -1,4 +1,5 @@
 .header {
+  background-color: #fff;
   @media (max-width: (325px)) {
     .container {
       padding: 0 10px;
@@ -16,6 +17,7 @@
 
   // Right
   .header__contact {
+    z-index: 3;
     background-color: var(--color-turquise);
     display: flex;
     align-items: center;
