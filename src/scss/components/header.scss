@@ -1,0 +1,38 @@
+.header {
+  @media (max-width: (325px)) {
+    .container {
+      padding: 0 10px;
+    }
+  }
+  // Left
+  .header__logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  @import "./logo";
+
+  // Center
+  @import "./menu";
+
+  // Right
+  .header__contact {
+    background-color: var(--color-turquise);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    // Phone
+    a {
+      font-weight: bold;
+      color: var(--color-white);
+    }
+    .modal-text {
+      font-size: 14px;
+      text-decoration: underline;
+      color: var(--color-white);
+    }
+  }
+
+  @import "./burger";
+}

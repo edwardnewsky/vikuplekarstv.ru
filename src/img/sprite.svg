@@ -1,0 +1,6 @@
+<div style="display: none;"><?xml version="1.0" encoding="utf-8"?><svg viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style>:root>svg{display:none}:root>svg:target{display:block}</style><svg fill="none" viewBox="0 0 50 50" id="logo" xmlns="http://www.w3.org/2000/svg"><path d="M0 50h38.04C44.644 50 50 44.646 50 38.04V0H11.96C5.354 0 0 5.354 0 11.96V50z" fill="#45C8DA"/><path d="M29.61 19.39v1h10.594v9.22H29.609v10.594h-9.218V29.609H9.796v-9.218h10.595V9.796h9.218v9.595z" stroke="#fff" stroke-width="2" stroke-miterlimit="10"/></svg></svg>
+<svg viewBox="0 0 100 80" width="40" height="40">
+    <rect width="100" height="20" rx="8"></rect>
+    <rect y="30" width="100" height="20" rx="8"></rect>
+    <rect y="60" width="100" height="20" rx="8"></rect>
+</svg></div>

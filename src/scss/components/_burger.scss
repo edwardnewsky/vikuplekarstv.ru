@@ -1,0 +1,10 @@
+.burger {
+  z-index: 101;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: var(--color-turquise);
+  border-radius: 100%;
+  padding: 15px;
+  border: none;
+}
