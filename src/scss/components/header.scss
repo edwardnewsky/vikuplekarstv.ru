@@ -1,10 +1,6 @@
 .header {
   background-color: #fff;
-  @media (max-width: (325px)) {
-    .container {
-      padding: 0 10px;
-    }
-  }
+
   // Left
   .header__logo {
     padding-top: 15px;

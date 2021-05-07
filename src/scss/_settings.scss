@@ -15,6 +15,23 @@ body {
   background-color: var(--color-white);
   color: var(--color-black);
 }
+@media (max-width: (327px)) {
+  body {
+    font-size: 15px;
+  }
+}
+
+h1 {
+  color: var(--color-turquise);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+@media (max-width: (327px)) {
+  h1 {
+    font-size: 39px;
+  }
+}
 
 img {
   max-width: 100%;
@@ -60,11 +77,11 @@ ul {
   cursor: pointer;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 15px;
-  max-width: 1200px;
-}
+// .container {
+//   margin: 0 auto;
+//   padding: 0 15px;
+//   max-width: 1200px;
+// }
 
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
