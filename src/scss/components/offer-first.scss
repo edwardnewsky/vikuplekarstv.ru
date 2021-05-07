@@ -35,6 +35,11 @@
     margin-right: 15px;
   }
 }
+@media (min-width: (992px)) {
+  .offer-first {
+    padding: 100px 0 150px 0;
+  }
+}
 @media (min-width: (550px)) {
   .offer-first {
     background-image: url(../../img/offer-first--1378.jpg);
