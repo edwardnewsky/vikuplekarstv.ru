@@ -5,6 +5,12 @@
   padding: 7px 13px;
   border-radius: 5px;
 }
+@media (min-width: (992px)) {
+  .button {
+    font-size: 20px;
+    padding: 10px 16px;
+  }
+}
 
 .button--turquise {
   background-color: transparent;

@@ -32,6 +32,20 @@ h1 {
     font-size: 39px;
   }
 }
+@media (min-width: (992px)) {
+  h1 {
+    font-size: 58px;
+  }
+}
+
+h2 {
+  font-size: 28px;
+}
+@media (min-width: (992px)) {
+  h2 {
+    font-size: 40px;
+  }
+}
 
 img {
   max-width: 100%;
@@ -89,4 +103,9 @@ ul {
 
 .section {
   margin: 20px 0 30px 0;
+}
+@media (min-width: (992px)) {
+  .section {
+    margin: 40px 0;
+  }
 }

@@ -17,6 +17,11 @@
       margin: 10px 0;
     }
   }
+  @media (min-width: (992px)) {
+    .offer-first__description {
+      font-size: 18px;
+    }
+  }
 
   .offer-first__buttons {
     display: flex;

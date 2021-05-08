@@ -4,11 +4,20 @@
     justify-content: center;
     margin-bottom: 20px;
   }
+
   .advantages__advantage {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
+  @media (min-width: (992px)) {
+    .advantages__icon {
+      width: 97px;
+      height: 97px;
+    }
+  }
+
   .advantages__text {
     margin: 15px 0 0 0;
     text-align: center;
