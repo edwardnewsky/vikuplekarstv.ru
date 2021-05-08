@@ -20,3 +20,15 @@ const toggleMenu = () => {
 burger.addEventListener("click", toggleMenu);
 
 // // ---------------------
+
+// init Swiper:
+const swiper = new Swiper(".swiper-container", {
+  slidesPerView: 4,
+  slidesPerColumn: 2,
+  slidesPerColumnFill: "row",
+  spaceBetween: 15,
+  pagination: {
+    el: ".swiper-pagination",
+    // clickable: true,
+  },
+});
