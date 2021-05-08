@@ -1,0 +1,16 @@
+@import "product";
+
+.showcase {
+  background-color: #e3f7fa;
+
+  .showcase__product {
+    display: flex;
+    justify-content: center;
+  }
+
+  .showcase__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
