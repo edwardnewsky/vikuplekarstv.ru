@@ -1,3 +1,13 @@
 .swiper-slide {
   height: calc((100% - 30px) / 2);
 }
+.swiper-pagination {
+  margin-top: 30px;
+  position: unset;
+}
+
+.swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+  background-color: #098b99 !important;
+}

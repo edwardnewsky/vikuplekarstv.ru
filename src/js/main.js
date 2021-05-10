@@ -25,13 +25,13 @@ var swiper = new Swiper(".swiper__products", {
   slidesPerView: 2,
   slidesPerColumn: 1,
   spaceBetween: 15,
-  slidesPerColumnFill: "row",
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
   },
   breakpoints: {
     720: {
+      slidesPerColumnFill: "row",
       slidesPerView: 3,
       slidesPerColumn: 2,
       spaceBetween: 30,
@@ -39,6 +39,7 @@ var swiper = new Swiper(".swiper__products", {
     1200: {
       slidesPerView: 4,
       slidesPerColumn: 2,
+      slidesPerColumnFill: "row",
     },
   },
 });
