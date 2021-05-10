@@ -36,10 +36,10 @@ var swiper = new Swiper(".swiper__products", {
       slidesPerColumn: 2,
       spaceBetween: 30,
     },
-    1200: {
+    1140: {
+      slidesPerColumnFill: "row",
       slidesPerView: 4,
       slidesPerColumn: 2,
-      slidesPerColumnFill: "row",
       spaceBetween: 30,
     },
   },
