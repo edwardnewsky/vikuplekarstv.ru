@@ -21,14 +21,24 @@ burger.addEventListener("click", toggleMenu);
 
 // // ---------------------
 
-// init Swiper:
-const swiper = new Swiper(".swiper-container", {
-  slidesPerView: 4,
-  slidesPerColumn: 2,
-  slidesPerColumnFill: "row",
+var swiper = new Swiper(".swiper__products", {
+  slidesPerView: 2,
+  slidesPerColumn: 1,
   spaceBetween: 15,
+  slidesPerColumnFill: "row",
   pagination: {
     el: ".swiper-pagination",
-    // clickable: true,
+    clickable: true,
+  },
+  breakpoints: {
+    720: {
+      slidesPerView: 3,
+      slidesPerColumn: 2,
+      spaceBetween: 30,
+    },
+    1200: {
+      slidesPerView: 4,
+      slidesPerColumn: 2,
+    },
   },
 });
