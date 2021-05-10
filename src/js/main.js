@@ -40,6 +40,7 @@ var swiper = new Swiper(".swiper__products", {
       slidesPerView: 4,
       slidesPerColumn: 2,
       slidesPerColumnFill: "row",
+      spaceBetween: 30,
     },
   },
 });
