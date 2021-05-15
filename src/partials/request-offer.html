@@ -1,19 +1,31 @@
 <section class="request-offer section">
   <div class="container">
-    <div class="row">
-      <div class="col-12 section__title">
-        <h2 class="h2">Оставьте вашу заявку</h2>
+    <div class="request-offer-row row">
+      <div class="request-offer__title col-12 col-lg-6">
+        <h3 class="h3">Оставьте вашу заявку</h3>
+        <p class="request-offer__description">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore
+        </p>
       </div>
-    </div>
 
-    <div class="row">
-      <!-- Swiper -->
-      <div class="col-12">@include('../parts/swiper.html')</div>
-    </div>
+      <div class="request-offer__form col-12 col-lg-6">
+        <!-- Form -->
+        <form action="/">
+          <div class="row">
+            <div class="col-7 col-lg-8 col-xxl-9 request-offer__col-input">
+              <input
+                type="text"
+                class="request-offer__input"
+                placeholder="Телефон*"
+              />
+            </div>
 
-    <div class="row">
-      <div class="col-12 showcase__button">
-        <button class="button">Показать все</button>
+            <div class="col-5 col-lg-4 col-xxl-3 request-offer__button">
+              <button type="submit" class="button">Отправить</button>
+            </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
