@@ -1,0 +1,15 @@
+@media (min-width: (992px)) {
+  .bot-offer {
+    padding: 0;
+
+    .bot-offer__container {
+      padding-top: 97px;
+      padding-bottom: 187px;
+      height: auto;
+      background-image: url(../../img/bot-offer--647.png);
+      background-position: bottom right;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}

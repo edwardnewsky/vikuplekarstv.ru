@@ -16,6 +16,12 @@
 .button--turquise {
   background-color: transparent;
   color: var(--color-turquise);
+
+  @media (max-width: (348px)) {
+    .icon__tg {
+      display: none;
+    }
+  }
 }
 
 .button--white {
