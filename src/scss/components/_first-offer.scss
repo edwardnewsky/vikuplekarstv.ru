@@ -9,7 +9,7 @@
 
   .first-offer__description {
     max-width: 500px;
-    color: var(--color-white);
+    color: $color_1;
     margin: 20px 0;
   }
   @media (max-width: (327px)) {
@@ -17,7 +17,7 @@
       margin: 10px 0;
     }
   }
-  @media (min-width: (992px)) {
+  @media (min-width: ($bp_lg)) {
     .first-offer__description {
       font-size: 18px;
     }
@@ -35,7 +35,7 @@
     }
   }
 }
-@media (min-width: (992px)) {
+@media (min-width: ($bp_lg)) {
   .first-offer {
     padding: 100px 0 150px 0;
   }

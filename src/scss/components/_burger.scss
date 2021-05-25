@@ -7,11 +7,11 @@
   position: fixed;
   top: 15px;
   right: 15px;
-  background-color: var(--color-turquise);
+  background-color: $color_4;
   border-radius: 100%;
   border: none;
 }
-@media (min-width: (992px)) {
+@media (min-width: ($bp_lg)) {
   .burger {
     display: none;
   }

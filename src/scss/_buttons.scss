@@ -1,12 +1,12 @@
 .button {
-  background-color: var(--color-turquise);
-  border: 2px solid var(--color-turquise);
-  color: var(--color-white);
+  background-color: $color_4;
+  border: 2px solid $color_4;
+  color: $color_1;
   padding: 7px 13px;
   border-radius: 5px;
   font-weight: 700;
 }
-@media (min-width: (992px)) {
+@media (min-width: ($bp_lg)) {
   .button {
     font-size: 20px;
     padding: 10px 16px;
@@ -15,7 +15,7 @@
 
 .button--turquise {
   background-color: transparent;
-  color: var(--color-turquise);
+  color: $color_4;
 
   @media (max-width: (348px)) {
     .icon__tg {
@@ -26,8 +26,8 @@
 
 .button--white {
   background-color: transparent;
-  color: var(--color-white);
-  border-color: var(--color-white);
+  color: $color_1;
+  border-color: $color_1;
 
   @media (max-width: (348px)) {
     .icon__tg {

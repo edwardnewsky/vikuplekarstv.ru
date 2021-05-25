@@ -9,11 +9,12 @@ html {
 }
 
 body {
+  min-width: 320px;
   font-size: 16px;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  background-color: var(--color-white);
-  color: var(--color-black);
+  background-color: $color_1;
+  color: $color_2;
 }
 @media (max-width: (327px)) {
   body {
@@ -21,8 +22,42 @@ body {
   }
 }
 
+// Текст
+.text--color_1 {
+  color: $color_1;
+}
+.text--color_2 {
+  color: $color_2;
+}
+.text--color_3 {
+  color: $color_3;
+}
+.text--color_4 {
+  color: $color_4;
+}
+.text--color_5 {
+  color: $color_5;
+}
+
+// Блоки
+.bg--color_1 {
+  background-color: $color_1;
+}
+.bg--color_2 {
+  background-color: $color_2;
+}
+.bg--color_3 {
+  background-color: $color_3;
+}
+.bg--color_4 {
+  background-color: $color_4;
+}
+.bg--color_5 {
+  background-color: $color_5;
+}
+
 h1 {
-  color: var(--color-turquise);
+  color: $color_4;
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 0;
@@ -32,7 +67,7 @@ h1 {
     font-size: 39px;
   }
 }
-@media (min-width: (992px)) {
+@media (min-width: ($bp_lg)) {
   h1 {
     font-size: 58px;
   }
@@ -41,14 +76,14 @@ h1 {
 h2 {
   font-size: 28px;
 }
-@media (min-width: (992px)) {
+@media (min-width: ($bp_lg)) {
   h2 {
     font-size: 40px;
   }
 }
 
 .h2--turquise {
-  color: var(--color-turquise);
+  color: $color_4;
 }
 
 img {
@@ -114,13 +149,13 @@ ul {
     margin-bottom: 20px;
     text-align: center;
   }
-  @media (min-width: (992px)) {
+  @media (min-width: ($bp_lg)) {
     .section__title {
       margin-bottom: 30px;
     }
   }
 }
-@media (min-width: (992px)) {
+@media (min-width: ($bp_lg)) {
   .section {
     padding: 40px 0 40px 0;
   }

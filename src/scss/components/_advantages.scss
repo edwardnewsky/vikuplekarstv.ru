@@ -5,7 +5,7 @@
     align-items: center;
   }
 
-  @media (min-width: (992px)) {
+  @media (min-width: ($bp_lg)) {
     .advantages__icon {
       width: 97px;
       height: 97px;
@@ -19,7 +19,7 @@
   .space {
     margin-bottom: 30px;
   }
-  @media (min-width: (992px)) {
+  @media (min-width: ($bp_lg)) {
     .space {
       margin-bottom: auto;
     }

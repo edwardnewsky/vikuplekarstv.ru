@@ -15,17 +15,17 @@
       justify-content: left;
 
       .h3 {
-        color: var(--color-turquise);
+        color: $color_4;
         font-size: 28px;
         font-weight: bold;
       }
 
       .request-offer__description {
-        color: var(--color-white);
+        color: $color_1;
         max-width: 431px;
       }
     }
-    @media (min-width: (992px)) {
+    @media (min-width: ($bp_lg)) {
       .request-offer__title {
         flex-direction: row;
       }
