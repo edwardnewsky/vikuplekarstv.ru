@@ -1,0 +1,39 @@
+$color_1: #fff;
+$color_2: #000;
+$color_3: #e3f7fa;
+$color_4: #45c8da;
+$color_5: #098b99;
+
+// Текст
+.text--color_1 {
+  color: $color_1;
+}
+.text--color_2 {
+  color: $color_2;
+}
+.text--color_3 {
+  color: $color_3;
+}
+.text--color_4 {
+  color: $color_4;
+}
+.text--color_5 {
+  color: $color_5;
+}
+
+// Блоки
+.bg--color_1 {
+  background-color: $color_1;
+}
+.bg--color_2 {
+  background-color: $color_2;
+}
+.bg--color_3 {
+  background-color: $color_3;
+}
+.bg--color_4 {
+  background-color: $color_4;
+}
+.bg--color_5 {
+  background-color: $color_5;
+}

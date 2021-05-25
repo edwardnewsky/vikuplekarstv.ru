@@ -1,0 +1,48 @@
+@import "breakpoints";
+@import "colors";
+@import "blocks";
+@import "typography";
+@import "buttons";
+@import "forms";
+
+.colors {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  &--column {
+    display: inherit;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  border: 1px solid #000;
+
+  &--1 {
+    background-color: $color_1;
+  }
+
+  &--2 {
+    background-color: $color_2;
+  }
+
+  &--3 {
+    background-color: $color_3;
+  }
+
+  &--4 {
+    background-color: $color_4;
+  }
+
+  &--5 {
+    background-color: $color_5;
+  }
+}

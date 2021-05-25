@@ -1,0 +1,25 @@
+// Заголовки
+.h1 {
+  font-size: 39px;
+
+  @media (min-width: (327px)) {
+    font-size: 40px;
+  }
+
+  @media (min-width: ($bp_lg)) {
+    font-size: 58px;
+  }
+}
+
+.h2 {
+  font-size: 28px;
+
+  @media (min-width: ($bp_lg)) {
+    font-size: 40px;
+  }
+}
+
+// Текст
+p {
+  margin: 15px 0;
+}
