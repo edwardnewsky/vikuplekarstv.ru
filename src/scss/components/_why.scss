@@ -1,0 +1,52 @@
+.why {
+  background-image: url(../img/why--375.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $color_2;
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .list-item {
+      min-height: 80px;
+      display: inherit;
+      flex-direction: row;
+      align-items: center;
+      padding: 5px 0;
+
+      .list-item__num {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color_1;
+        border: 1px solid $color_4;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      .text {
+        width: 100%;
+        margin-bottom: 0;
+      }
+    }
+    @media (min-width: ($bp_lg)) {
+      .list-item {
+        min-height: 60px;
+      }
+    }
+  }
+}
+@media (min-width: ($bp_lg)) {
+  .why {
+    background-image: url(../img/why--1950.jpg);
+    background-size: cover;
+    background-position: center;
+
+    .section__title {
+      justify-content: flex-start;
+    }
+  }
+}
