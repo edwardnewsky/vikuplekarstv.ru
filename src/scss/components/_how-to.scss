@@ -1,2 +1,104 @@
 .how-to {
+  .how-to__block {
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 35px;
+    background-color: $color_1;
+    border: 1px solid $color_4;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .how-to__block-circle {
+      text-align: center;
+      box-sizing: border-box;
+      border: 1px solid $color_4;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: inherit;
+      align-items: center;
+      justify-content: center;
+      // margin: auto;
+      position: relative;
+      top: -25px;
+      background-color: $color_1;
+    }
+
+    .how-to__block-text {
+      text-align: center;
+      color: $color_2;
+      flex-grow: 1;
+      .title {
+        font-size: 16px;
+      }
+      @media (min-width: ($bp_md)) {
+        .title {
+          font-size: 18px;
+        }
+      }
+      .text {
+        font-size: 12px;
+      }
+      @media (min-width: ($bp_md)) {
+        .text {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .how-to__block-svg--1,
+    .how-to__block-svg--2,
+    .how-to__block-svg--3 {
+      margin-bottom: 10px;
+    }
+    @media (min-width: ($bp_sm)) {
+      .how-to__block-svg--1 {
+        width: 155px;
+        height: 208px;
+      }
+      .how-to__block-svg--2 {
+        width: 186px;
+        height: 229px;
+      }
+      .how-to__block-svg--3 {
+        width: 203px;
+        height: 208px;
+      }
+      .how-to__block-svg--4 {
+        width: 240px;
+        height: 213px;
+      }
+    }
+    @media (min-width: ($bp_lg)) {
+      .how-to__block-svg--4 {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    @media (min-width: ($bp_xl)) {
+      .how-to__block-svg--4 {
+        width: 240px;
+        height: 213px;
+      }
+    }
+  }
+  @media (min-width: ($bp_sm)) {
+    .how-to__block {
+      min-height: 455px;
+    }
+  }
+
+  // .bot-offer__buttons {
+  //   margin-top: 30px;
+  // }
+  @media (min-width: ($bp_lg)) {
+    .bot-offer__buttons {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
 }
