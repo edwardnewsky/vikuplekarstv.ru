@@ -61,3 +61,19 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+// // ---------------------
+
+var swiper = new Swiper(".swiper__reviews", {
+  slidesPerView: 1,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    720: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+    },
+  },
+});
