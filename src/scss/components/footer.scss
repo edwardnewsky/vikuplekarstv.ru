@@ -1,0 +1,26 @@
+.footer {
+  color: #fff;
+
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+    .list {
+      font-size: 12px;
+      margin-top: 15px;
+      .link {
+        color: #fff;
+      }
+    }
+  }
+
+  .footer__text {
+    .text {
+      font-size: 12px;
+      margin-top: 15px;
+    }
+  }
+
+  .footer__contact {
+    margin-top: 15px;
+  }
+}
