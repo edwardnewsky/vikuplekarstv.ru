@@ -7,14 +7,18 @@
   background-color: rgba(0, 0, 0, 0.6);
   padding: 40px 0 20px 0;
 
+  .h1 {
+    margin-bottom: 20px;
+  }
+
   .first-offer__description {
     max-width: 500px;
     color: $color_1;
-    margin: 20px 0;
+    // margin: 20px 0;
   }
   @media (max-width: (327px)) {
     .first-offer__description {
-      margin: 10px 0;
+      // margin: 10px 0;
     }
   }
   @media (min-width: ($bp_lg)) {
