@@ -22,9 +22,18 @@
       font-weight: bold;
       color: $color_1;
     }
+    button {
+      background-color: transparent;
+      border: none;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
     .modal-text {
       font-size: 14px;
-      text-decoration: underline;
+
       color: $color_1;
     }
   }
