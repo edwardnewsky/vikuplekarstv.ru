@@ -5,7 +5,19 @@
   padding: 7px 13px;
   border-radius: 5px;
   font-weight: 700;
+
+  &:hover {
+    border-color: $color_4;
+    background-color: transparent;
+    color: $color_4;
+  }
+
+  &:active {
+    border-color: $color_4;
+    background-color: transparent;
+  }
 }
+
 @media (min-width: ($bp_lg)) {
   .button {
     font-size: 20px;
@@ -16,6 +28,18 @@
 .button--turquise {
   background-color: transparent;
   color: $color_4;
+
+  &:hover {
+    border-color: $color_4;
+    background-color: $color_4;
+    color: $color_1;
+  }
+
+  &:active {
+    border-color: $color_4;
+    background-color: transparent;
+    color: $color_4;
+  }
 
   @media (max-width: (348px)) {
     .icon__tg {
@@ -28,6 +52,18 @@
   background-color: transparent;
   color: $color_1;
   border-color: $color_1;
+
+  &:hover {
+    border-color: $color_4;
+    background-color: $color_4;
+    color: $color_1;
+  }
+
+  &:active {
+    border-color: $color_4;
+    background-color: transparent;
+    color: $color_4;
+  }
 
   @media (max-width: (348px)) {
     .icon__tg {
