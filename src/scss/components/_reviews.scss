@@ -2,5 +2,12 @@
   .review__block {
     border: 3px solid $color_4;
     padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    .text {
+      margin: 0;
+    }
   }
 }
