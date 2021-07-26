@@ -28,6 +28,10 @@
           margin-left: 15px;
           text-decoration: underline;
           color: $color_2;
+
+          &:hover {
+            text-decoration: none;
+          }
         }
       }
       @media (min-width: ($bp_sm)) {
