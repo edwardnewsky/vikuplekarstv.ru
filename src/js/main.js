@@ -29,17 +29,18 @@ var swiper = new Swiper(".swiper__products", {
     el: ".swiper-pagination",
     clickable: true,
   },
+  loop: true,
   breakpoints: {
     720: {
       slidesPerColumnFill: "row",
       slidesPerView: 3,
-      slidesPerColumn: 2,
+      // slidesPerColumn: 2,
       spaceBetween: 30,
     },
     1140: {
       slidesPerColumnFill: "row",
       slidesPerView: 4,
-      slidesPerColumn: 2,
+      // slidesPerColumn: 2,
       spaceBetween: 30,
     },
   },

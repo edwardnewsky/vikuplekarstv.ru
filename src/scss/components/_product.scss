@@ -2,6 +2,9 @@
   // max-width: 255px;
   border-radius: 6.42105px;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   .product__preview {
     padding: 2px 12px;
@@ -15,10 +18,14 @@
   }
 
   .product__review {
+    height: 100%;
     border-radius: 0px 0px 6.42105px 6.42105px;
     background-color: $color_4;
     color: $color_1;
     padding: 12px;
+    display: inherit;
+    flex-direction: column;
+    justify-content: flex-start;
 
     .product__title {
       .h3 {
@@ -56,7 +63,8 @@
     .product__price {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      align-items: flex-end;
+      flex-grow: 1;
 
       .text {
         font-weight: 400;

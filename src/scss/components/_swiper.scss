@@ -1,5 +1,6 @@
 .swiper-slide {
-  height: calc((100% - 30px) / 2);
+  display: flex;
+  height: auto;
 }
 .swiper-pagination {
   margin-top: 30px;
