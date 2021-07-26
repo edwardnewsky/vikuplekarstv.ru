@@ -70,6 +70,7 @@ var swiper = new Swiper(".swiper__reviews", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+    loop: true,
   },
   breakpoints: {
     720: {

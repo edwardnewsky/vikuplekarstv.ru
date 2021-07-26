@@ -1,13 +1,35 @@
 .reviews {
-  .review__block {
-    border: 3px solid $color_4;
-    padding: 15px;
+  .reviews__border {
     display: flex;
-    align-items: center;
-    text-align: center;
+    padding: 20px;
 
-    .text {
-      margin: 0;
+    .dots__icon {
+      position: absolute;
+      background-color: $color_1;
+      padding: 3px;
+    }
+
+    .dots__icon--up {
+      left: 0;
+      top: 0;
+      transform: rotate(180deg);
+    }
+
+    .dots__icon--down {
+      right: 0;
+      bottom: 0;
+    }
+
+    .review__block {
+      border: 3px solid $color_4;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      .text {
+        margin: 0;
+      }
     }
   }
 }
