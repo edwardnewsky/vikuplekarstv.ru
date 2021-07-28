@@ -16,15 +16,30 @@
   .footer__text {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 
     .text {
       font-size: 12px;
       margin-bottom: 15px;
     }
-  }
 
-  .footer__contact {
-    margin-top: 15px;
+    .contact {
+      margin: 5px 0 0 0;
+      display: flex;
+      flex-direction: row-reverse;
+
+      .link {
+        color: $color_1;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .icon__contact {
+        // margin: 0 0 0 15px;
+        margin: 0 15px 0 0;
+      }
+    }
   }
 }

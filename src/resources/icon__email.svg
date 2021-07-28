@@ -1,1 +1,18 @@
-<svg height="448pt" viewBox="0 0 448 448" width="448pt" xmlns="http://www.w3.org/2000/svg"><path d="M314.375 144h-180.75L224 221.465zm0 0"/><path d="M224 240a7.986 7.986 0 0 1-5.207-1.93L120 153.39V304h208V153.39l-98.793 84.68A7.986 7.986 0 0 1 224 240zm0 0"/><path d="M224 0C100.29 0 0 100.29 0 224s100.29 224 224 224 224-100.29 224-224C447.86 100.348 347.652.14 224 0zm120 312a8 8 0 0 1-8 8H112a8 8 0 0 1-8-8V136a8 8 0 0 1 8-8h224a8 8 0 0 1 8 8zm0 0"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 448 448" style="enable-background:new 0 0 448 448;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#45C8DA;}
+</style>
+<g id="Слой_2">
+	<rect x="80.8" y="110.5" class="st0" width="292.6" height="237.8"/>
+</g>
+<g id="Слой_1">
+	<path class="st1" d="M314.4,144H133.6l90.4,77.5L314.4,144z"/>
+	<path class="st1" d="M224,240c-1.9,0-3.8-0.7-5.2-1.9L120,153.4V304h208V153.4l-98.8,84.7C227.8,239.3,225.9,240,224,240z"/>
+	<path class="st1" d="M224,0C100.3,0,0,100.3,0,224s100.3,224,224,224s224-100.3,224-224C447.9,100.3,347.7,0.1,224,0z M344,312
+		c0,4.4-3.6,8-8,8H112c-4.4,0-8-3.6-8-8V136c0-4.4,3.6-8,8-8h224c4.4,0,8,3.6,8,8V312z"/>
+</g>
+</svg>
