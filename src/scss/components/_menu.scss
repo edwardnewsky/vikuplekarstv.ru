@@ -49,7 +49,20 @@
     display: block;
     flex-grow: 1;
     width: 100%;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:active {
+      text-decoration: underline;
+    }
   }
+
+  .menu__link--active {
+    text-decoration: underline;
+  }
+
   @media (min-width: ($bp_lg)) {
     .menu__link {
       padding: 0 15px;

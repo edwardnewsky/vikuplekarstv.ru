@@ -1,0 +1,19 @@
+.contacts {
+  .contacts__contact {
+    .contact {
+      margin: 15px 0;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+
+      .icon__contact {
+        margin-right: 15px;
+      }
+
+      .link {
+        color: $color_2;
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -26,18 +26,6 @@
       font-size: 18px;
     }
   }
-
-  .first-offer__buttons {
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    align-items: flex-start;
-  }
-  @media (min-width: (550px)) {
-    .first-offer__buttons {
-      flex-direction: row;
-    }
-  }
 }
 @media (min-width: ($bp_lg)) {
   .first-offer {
@@ -52,5 +40,19 @@
 @media (max-width: (327px)) {
   .first-offer {
     padding: 15px 0;
+  }
+}
+
+// наружу
+
+.first-offer__buttons {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: flex-start;
+}
+@media (min-width: (550px)) {
+  .first-offer__buttons {
+    flex-direction: row;
   }
 }
