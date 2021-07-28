@@ -37,9 +37,22 @@
       }
 
       .icon__contact {
-        // margin: 0 0 0 15px;
         margin: 0 15px 0 0;
       }
+    }
+    @media (min-width: ($bp_md)) {
+      .contact {
+        flex-direction: row;
+
+        .icon__contact {
+          margin: 0 0 0 15px;
+        }
+      }
+    }
+  }
+  @media (min-width: ($bp_md)) {
+    .footer__text {
+      align-items: flex-end;
     }
   }
 }
