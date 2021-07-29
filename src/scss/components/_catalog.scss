@@ -1,0 +1,11 @@
+.catalog {
+  .catalog__row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .catalog__product {
+      display: flex;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+}
