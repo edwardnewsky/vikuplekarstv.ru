@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#111111" />
+    <title>New site</title>
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    @include('partials/header.html')
+    <!-- Sprite connect -->
+    <div class="d-none">@include('img/sprite.svg')</div>
+    <!-- Product-card -->
+    @include('parts/product-cards/avastin.html')
+    <!-- How to -->
+    @include('partials/how-to.html')
+    <!-- Rating = Advantages -->
+    @include('partials/rating.html')
+    <!-- Map -->
+    @include('partials/map.html')
+    <!-- Why -->
+    @include('partials/why.html')
+    <!-- Request offer -->
+    @include('partials/request-offer.html')
+    <!-- Footer -->
+    @include('partials/footer.html')
+
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
